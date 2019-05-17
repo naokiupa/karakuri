@@ -1,0 +1,178 @@
+body{margin:0;}
+#wrap {
+  max-width:
+}
+
+.main-visual {
+  background: url('../img/img_mvImg_pc_s.svg') no-repeat;
+  margin: 0 auto;
+  padding-left: 112px;
+}
+.inner {
+  box-sizing: border-box;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+.button-cont .black-button {
+  width: 300px;
+  border-radius: 33px;
+  padding: 20px 3px !important;
+  font-size: 18px;
+  border: 2px solid #000;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+}
+.button-cont {
+  padding-top: 40px;
+}
+.button-cont a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+
+.hukidashi {
+  width: 70%;
+  position: relative;
+  display: inline-block;
+  color: #555;
+  background-color: white !important;
+  border-radius: 8px;
+  color: 	#16BA8F;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+.hukidashi:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border: 6px solid transparent;
+  border-top: 10px solid white;
+}
+.glay-back {
+  background-color:#F6F6F6 !important;
+}
+.green-back {
+  background: linear-gradient(90deg, #97e297, #54e2b3);
+}
+.reason h3 {
+  color: #16BA8F;
+}
+
+@media (min-width: 770px) {
+  .main-words img{
+    width: 429px;
+    padding: 130px 0 32px;
+  }
+  .main-words .button-cont a {
+    width: 400px;
+    height: 66px;
+    border-radius: 33px;
+    font-size: 22px;
+    background: #17ba8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s;
+    box-shadow: 0 5px 0 0 #188969;
+    /*padding: 10px 30px;*/
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .main-words .main-karam {
+    padding-top: 14px;
+    width: 430px;
+    text-align: center;
+  }
+  .main-words span{
+    font-size: 11px;
+    line-height: 1.64;
+  }
+  .section {
+    padding: 70px 0 50px !important;
+  }
+  h2 {
+    font-size: 38px;
+    margin: 0;
+  }
+  .task {
+    width: 32%;
+    margin-top: 3vw;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .hukidashi {
+    position: relative;
+    margin: 0 auto;
+    max-width: 293px;
+    max-height: 147px;
+    margin-bottom: 1.5vw;
+    padding: 0.5vw 1vw;
+  }
+  .hukidashi h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .task .text {
+    text-align: left;
+    padding: 0 10px;
+    font-size: 13px;
+  }
+  .seika img {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .jirei .task{
+    margin-bottom: 4vw;
+  }
+  .jirei .task img {
+    width: 98.4%;
+    padding: 0 0.8%;
+  }
+  .jirei {
+    background: url(../img/jirei.svg) no-repeat;
+    background-position: center bottom !important;
+    background-size: 215px 121px !important;
+  }
+  .merit {
+    text-align: center;
+  }
+  .list {
+    border-radius: 10px;
+    margin-top: 30px;
+    max-width: 870px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: #fff;
+  }
+  .list ul {
+    list-style: none;
+  }
+  .list ul li {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1350px) and (min-width: 770px) {
+  .main-visual {
+    height: 500px;
+    background-position: 540px 50px;
+    background-size: 670px;
+  }
+}
+
+@media (min-width: 1351px) {
+  .main-visual {
+    max-width: 1400px;
+    height: 625px;
+    background-position: right top 25px;
+  }
+}
